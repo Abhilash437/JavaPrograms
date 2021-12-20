@@ -10,7 +10,7 @@ public class Main2 {
         //Circle
         Shapes2 circle1 = new Shapes2();
         circle1.Read(c);
-        Shapes2 circle2 = new Shapes2(circle1);
+        Shapes2 circle2 = new Shapes2(circle1.radius);
         circle2.Area(circle2.radius);
         circle2.Volume(circle2.radius);
 
